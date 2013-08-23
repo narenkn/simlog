@@ -1,0 +1,8 @@
+During debug mode, set SIMLOG_DEBUGON environment variable
+
+build command : gmake PY=/tools/pandora64/.package/python-2.6.2/bin/python
+
+Cron Commands:
+*/5 * * * * cd /proj/lna_verif_workarea/users/naren/try/junk/simlog/simlog_run && bash ../src/simlog_srv.sh
+0   * * * * python /proj/lna_verif_workarea/users/naren/try/junk/simlog/utils/save.py
+0   0 * * * python /proj/lna_verif_workarea/users/naren/try/junk/simlog/utils/quit.py

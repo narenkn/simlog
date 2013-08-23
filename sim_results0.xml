@@ -1,0 +1,14 @@
+<data>
+	<sim_results>
+		<status>Fail</status>
+		<category>VCS Internal Error</category>
+		<message>--- Stack trace follows:</message>
+		<signature>Segfault in translate_to_env()</signature>
+		<failsignature attribute="sim" description="Failure Signature">Segfault in translate_to_env()</failsignature>
+		<Assertion attribute="sim" description="Assertion Message">--- Stack trace follows:</Assertion>
+		<cycle_count>0</cycle_count>
+		<cpu_time>0</cpu_time>
+		<cps attribute="sim" description="Runtime Clock Ticks / Second">0</cps>
+		<sim_clock_time attribute="sim" description="Simulator Clock Time">5965</sim_clock_time>
+	</sim_results>
+</data>
