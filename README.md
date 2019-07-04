@@ -3,7 +3,7 @@ Utility to store the commandline of each runs and the result status at a remote 
 
 More information at my [webpage](https://narenkn.com/works/verif/simlog.html).
 
-## Installation
+## Dependencies
 ```bash
 sudo apt install cython
 ```
